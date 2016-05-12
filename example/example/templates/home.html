@@ -1,0 +1,13 @@
+<html><body>Interview pass
+
+<br>
+{{ content }}
+</br>
+
+<ul>
+{% for item in item_list %}
+<li><a href="{% url 'solution' item %}">{{ item }}</a></li>
+{% endfor %}
+</ul>
+
+</body></html>
